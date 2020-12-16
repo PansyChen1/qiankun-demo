@@ -24,10 +24,10 @@ app.use(router)
 
 registerMicroApps([
   {
-    name: 'react app', // app name registered
-    entry: '//localhost:7100',
+    name: 'sub-project1', // app name registered
+    entry: '//localhost:8001',
     container: '#yourContainer',
-    activeRule: '/yourActiveRule',
+    activeRule: '/sub-project1',
   },
 ]);
 
